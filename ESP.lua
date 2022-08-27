@@ -4,6 +4,7 @@
 -- Instances:
 
 local ESP = Instance.new("ScreenGui")
+ESP.ResetOnSpawn = false
 local MainFrame = Instance.new("Frame")
 local ESPInstructions = Instance.new("TextLabel")
 local ToggleInstructions = Instance.new("TextLabel")
